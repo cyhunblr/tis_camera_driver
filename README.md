@@ -60,6 +60,12 @@ rosdep install --from-paths src --ignore-src -r -y
 catkin_make -DCMAKE_BUILD_TYPE=Release
 ```
 
+### Running 
+```
+source devel/setup.bash
+roslaunch tis_camera_driver tis_camera.launch
+```
+
 ### Configuration
 
 1. `tis_camera_driver/config` 
@@ -73,8 +79,8 @@ catkin_make -DCMAKE_BUILD_TYPE=Release
 ([tiscamera_ros](https://github.com/chengguizi/tiscamera_ros/tree/master))
 
 #### TODO
-- [] Publish Rectified Image
-- [] Add some other parameter ex. exposure, gain, etc.
-- [] Clean and prepare the interface
-- [] Implementation to ROS2
-- [] Seperate the branch AMD64 and ARM64
+- [ ] Publish Rectified Image
+- [ ] Add some other parameter ex. exposure, gain, etc.
+- [ ] Clean and prepare the interface
+- [ ] Implementation to ROS2
+- [ ] Seperate the branch AMD64 and ARM64
