@@ -1,0 +1,9 @@
+tis_camera_node:
+  format: BGR
+  width: 1920
+  height: 1080
+  camera_name: "tis_front_cam"
+  camera_serial_number: "03420356"
+  frame_rate: 60
+  tonemapping: true
+  highlight_reduction: true

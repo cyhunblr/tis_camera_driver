@@ -1,0 +1,76 @@
+{
+  "device": {
+    "model_name": "DFK 37AUX462",
+    "serial": "03420356",
+    "unique_name": "The Imaging Source Europe GmbH-ic4-gentl-u3v-03420356"
+  },
+  "properties": {
+    "AcquisitionFrameRate": 50.0,
+    "AutoFunctionsROIEnable": false,
+    "AutoFunctionsROIPreset": "AutoFunctionsROIPreset_Center50Pct",
+    "BalanceWhiteAuto": "Continuous",
+    "BalanceWhiteMode": "WhiteBalanceMode_GrayWorld",
+    "BlackLevel": 240.0,
+    "Brightness": 240,
+    "ColorTransformationEnable": false,
+    "ColorTransformationValueSelector": {
+      "(Value)": "Gain00",
+      "Gain00": {
+        "ColorTransformationValue": 0.9399999976158142
+      },
+      "Gain01": {
+        "ColorTransformationValue": -0.10999999940395355
+      },
+      "Gain02": {
+        "ColorTransformationValue": 0.03999999910593033
+      },
+      "Gain10": {
+        "ColorTransformationValue": 0.09000000357627869
+      },
+      "Gain11": {
+        "ColorTransformationValue": 1.2100000381469727
+      },
+      "Gain12": {
+        "ColorTransformationValue": -0.4000000059604645
+      },
+      "Gain20": {
+        "ColorTransformationValue": -0.029999999329447746
+      },
+      "Gain21": {
+        "ColorTransformationValue": -0.10000000149011612
+      },
+      "Gain22": {
+        "ColorTransformationValue": 1.3600000143051147
+      }
+    },
+    "Contrast": 0,
+    "Denoise": 0,
+    "ExposureAuto": "Continuous",
+    "ExposureAutoHighlightReduction": true,
+    "ExposureAutoLowerLimit": 60.0,
+    "ExposureAutoReference": 128,
+    "ExposureAutoUpperLimitAuto": true,
+    "GPOut": 0,
+    "GainAuto": "Continuous",
+    "GainAutoLowerLimit": 0.0,
+    "GainAutoUpperLimit": 72.0,
+    "Gamma": 1.0,
+    "Height": 1080,
+    "PixelFormat": "BayerRG16",
+    "ReverseX": false,
+    "ReverseY": false,
+    "Sharpness": 0,
+    "SoftwareTransformEnable": true,
+    "StrobeDelay": 0,
+    "StrobeEnable": "Off",
+    "StrobeOperation": "Exposure",
+    "StrobePolarity": "ActiveLow",
+    "ToneMappingEnable": true,
+    "ToneMappingGlobalBrightness": 1.0,
+    "ToneMappingIntensity": -0.0,
+    "TriggerActivation": "FallingEdge",
+    "TriggerDelay": 3.1,
+    "TriggerMode": "Off",
+    "Width": 1920
+  }
+}

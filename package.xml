@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tis_camera_driver</name>
+  <version>0.0.1</version>
+  <description>The The Imaging Source Camera ROS Driver Package</description>
+
+  <maintainer email="ahmetceyhunbilir16@gmail.com">cyhunblr</maintainer>
+
+  <license>MIT</license>
+
+  <!-- Url tags are optional, but multiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/tiscamera_ros</url> -->
+
+  <author email="ahmetceyhunbilir16@gmail.com">cyhunblr</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>camera_info_manager</build_depend>
+  <build_depend>image_geometry</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>camera_info_manager</exec_depend>
+  <exec_depend>image_geometry</exec_depend>
+</package>
