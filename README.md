@@ -76,3 +76,5 @@ catkin_make -DCMAKE_BUILD_TYPE=Release
 - [] Publish Rectified Image
 - [] Add some other parameter ex. exposure, gain, etc.
 - [] Clean and prepare the interface
+- [] Implementation to ROS2
+- [] Seperate the branch AMD64 and ARM64
