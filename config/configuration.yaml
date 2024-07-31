@@ -1,9 +1,30 @@
 tis_camera_node:
-  format: BGR
-  width: 1920
-  height: 1080
+  debugFlag: 0
+  propertyFlag: 0
+
   camera_name: "tis_front_cam"
   camera_serial_number: "03420356"
+
+  format: "BGR"
+  width: 1920
+  height: 1080
   frame_rate: 60
+
+  exposure_auto: true
+  set_exposure_time: 10000              # If only if exposure_auto set false, min = 20, max = 30000000
+  exposure_limits: true
+  exposure_lower_limit: 60           # default = 333 min = 20 max = 1000000
+  exposure_upper_limit: 20000          # default = 333 min = 20 max = 1000000
+  exposure_auto_reference: 128          # default = 128 min = 0 max = 255
+
+  white_balance_auto: true
+  gain_auto: true
+  gain: 0                               # default = 0 min = 0 max = 238
+  gamma: 0                              # default = 1.0 min = 0.0 max = 4.0
+
   tonemapping: true
+  tonemapping_intensity: 1.0              # default= 1.0, min = -8.0, max = 8.0
+  tonemapping_global_brightness: 0.5    # default= 0.5, min =  0.0, max = 1.0
+
   highlight_reduction: true
+
