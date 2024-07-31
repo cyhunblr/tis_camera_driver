@@ -1,0 +1,26 @@
+image_width: 1920
+image_height: 1080
+camera_name: "tis_front_cam"
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [2166.613612, 0.000000, 978.598439,
+          0.000000, 2161.401826, 680.049001,
+          0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.235676, 0.233693, -0.001638, -0.002991, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [2080.080811, 0.000000, 974.882716, 0.000000,
+        0.000000, 2124.817383, 682.322865, 0.000000,
+        0.000000, 0.000000, 1.000000, 0.000000]
