@@ -79,8 +79,8 @@ roslaunch tis_camera_driver tis_camera.launch
 ([tiscamera_ros](https://github.com/chengguizi/tiscamera_ros/tree/master))
 
 #### TODO
-- [ ] Publish Rectified Image
-- [ ] Add some other parameter ex. exposure, gain, etc.
+- [x] Publish Rectified Image
+- [x] Add some other parameter ex. exposure, gain, etc.
 - [ ] Clean and prepare the interface
 - [ ] Implementation to ROS2
 - [ ] Seperate the branch AMD64 and ARM64
