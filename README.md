@@ -44,6 +44,7 @@ However, it is strongly recommanded to build from source, for the main tiscamera
 Clone `https://github.com/TheImagingSource/tiscamera` and checkout the release version
 ```
 git clone https://github.com/TheImagingSource/tiscamera.git && cd tiscamera
+./scripts/dependency-manager install
 git checkout v-tiscamera-0.12.0
 mkdir build && cd build
 cmake -DBUILD_TOOLS=ON -DBUILD_ARAVIS=OFF ..
@@ -77,6 +78,9 @@ roslaunch tis_camera_driver tis_camera.launch
 
 ### Acknowledgement
 ([tiscamera_ros](https://github.com/chengguizi/tiscamera_ros/tree/master))
+
+### Issue
+1. If tcam lib not found, you have to apply Build from Source. 
 
 #### TODO
 - [x] Publish Rectified Image
